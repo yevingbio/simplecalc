@@ -1,4 +1,4 @@
-# simplecalc
+# simple calc
 Simple calculator in HTML, CSS and JavaScript.
 
 Phone:

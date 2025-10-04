@@ -70,9 +70,17 @@ button:active {
 
 @media (max-width: 600px) {
     
+    /* 1. Zmniejszamy główny rozmiar czcionki na telefonach */
+    body {
+        /* Domyślny rozmiar czcionki to zwykle 16px. 
+           Ustawienie go na 14px (lub 87.5%) zmniejszy wszystkie jednostki REM. */
+        font-size: 87.5%; 
+    }
+    
     #calculator {
         width: 95%;
         max-width: none;
+        margin: 30px auto; /* Ustawienie marginesów, aby był oddalony od krawędzi */
     }
     
     #keys {
@@ -86,6 +94,7 @@ button:active {
     }
     
     button {
-        font-size: 1.5rem;
+        /* W tym przypadku zostawiamy 1.5rem, które automatycznie się zmniejszy */
+        font-size: 1.5rem; 
     }
 }

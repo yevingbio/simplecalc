@@ -78,7 +78,7 @@ button:active {
     }
     
     #calculator {
-        width: 95%;
+        width: 80%;
         max-width: none;
         margin: 30px auto; /* Ustawienie marginesów, aby był oddalony od krawędzi */
     }

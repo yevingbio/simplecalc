@@ -1,5 +1,6 @@
 # simple calc
 Simple calculator in HTML, CSS and JavaScript.
+(Try "3+3 and click equals)
 
 Phone:
 
